@@ -1,8 +1,8 @@
 #include <stdio.h>
-include <stdlib.h>
+#include <stdlib.h>
 
 /* Função Principal */
-main(){
+int main(){
   printf("Curso de C\n");
   return 0;
 }

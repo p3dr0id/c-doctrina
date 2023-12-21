@@ -10,6 +10,7 @@ Data 19/12/2023
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h> /*acrescentada para utilizar a função sqrt()*/
+#include <windows.h> /*útil para acentuação correta do português em sistemas windows*/
 
 /* ============================================================================================ */
 /* --- Variáveis Globais e Constantes --- */
@@ -27,8 +28,9 @@ int crypto(int valor);
 /* --- Função Principal --- */
 
 int main() {
+    SetConsoleOutputCP(65001); /*para acentuação*/
     /* Exemplo de aula: */
-    int v[NUM] = {}; /* declarando = {} inicializa todos os elementos do vetor com 0*/
+    //int v[NUM] = {}; /* declarando = {} inicializa todos os elementos do vetor com 0*/
     /* func(v, 5); */
     
 
@@ -38,7 +40,7 @@ int main() {
     V_rms = \sqrt{\frac{1}{N} \sum_{i=0}^{N-1} v^2(i)}
     sendo N o número de amostras do sinal de tensão.
     */
-    float V[5] = {1.5, 3.8, 4.9, 5.7, 2.1};
+    //float V[5] = {1.5, 3.8, 4.9, 5.7, 2.1};
     /* printf("V_rms = %.4f V\n", true_rms(V, 5)); */
 
 

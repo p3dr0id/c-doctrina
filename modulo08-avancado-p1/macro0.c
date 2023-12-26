@@ -7,5 +7,5 @@
              printf("       |--------|\n");                   \
              printf("       |        |\n");                   \
              printf("       |--------|\n");                   \
-             printf("  ptr  | %6X | %p\n",     ptr, &ptr);    \
+             printf("  ptr  | %p | %p\n",     ptr, &ptr);    \
              printf("       |--------|\n")

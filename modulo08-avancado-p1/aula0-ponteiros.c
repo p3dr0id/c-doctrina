@@ -27,7 +27,6 @@ endereço "lixo" de memória ao ponteiro.
 #include <stdio.h>
 #include <stdlib.h>
 #include macro0.c
-
 /* ============================================================================================ */
 /* --- Variáveis Globais e Constantes --- */
 

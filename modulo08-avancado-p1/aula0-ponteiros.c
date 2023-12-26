@@ -62,15 +62,17 @@ int main() {
     while(1)
     {
       system("cls");
-      mapA;
-      mapB;
+      //mapA;
+      //mapB;
+      map;
 
       printf("var2,var1: ");
       scanf("%hd%*c%hd",&var2,&var1);
 
       system("cls");
-      mapA;
-      mapB;
+      //mapA;
+      //mapB;
+      map;
   
       printf("ptr: \n");
       printf("1. aponta para var1\n");
@@ -84,8 +86,9 @@ int main() {
         ptr = &var2;
 
       system("cls");  
-      mapA;
-      mapB;  
+      //mapA;
+      //mapB;  
+      map;
 
       printf("*ptr: ");
       scanf("%hd",ptr);

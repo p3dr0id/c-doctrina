@@ -26,7 +26,7 @@ endereço "lixo" de memória ao ponteiro.
 /* --- Bibliotecas --- */
 #include <stdio.h>
 #include <stdlib.h>
-#include macro0.c
+#include "macro0.c"
 /* ============================================================================================ */
 /* --- Variáveis Globais e Constantes --- */
 
@@ -46,7 +46,7 @@ int main() {
     int *ponteiro; /*declarando um ponteiro para variável var*/
     ponteiro = &var;
     printf("Endereco apontado pelo ponteiro: %p\n", ponteiro);
-    printf("Endereco do ponteiro: %p\n", &ptr); /*o próprio ponteiro também tem um endereço de memória*/
+    printf("Endereco do ponteiro: %p\n", &ponteiro); /*o próprio ponteiro também tem um endereço de memória*/
     printf("Conteudo de var acessado pelo ponteiro: %d\n", *ponteiro);
 
     *ponteiro = 7; /*atualiza o conteúdo de var indiretamente por meio do ponteiro*/

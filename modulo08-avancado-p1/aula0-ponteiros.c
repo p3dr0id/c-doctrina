@@ -52,7 +52,7 @@ int main() {
     *ponteiro = 7; /*atualiza o conteúdo de var indiretamente por meio do ponteiro*/
     printf("Conteudo de var alterado: %d\n", var);
 
-    /*Exemplo da aula*/
+    /*Exemplo da aula modificado*/
     short *ptr, var1, var2, upt=0;      
 
     var1 =    0;          
@@ -62,16 +62,12 @@ int main() {
     while(1)
     {
       system("cls");
-      //mapA;
-      //mapB;
       map;
 
-      printf("var2,var1: ");
-      scanf("%hd%*c%hd",&var2,&var1);
+      printf("var1,var2: ");
+      scanf("%hd%*c%hd",&var1,&var2); /*o %*c permite indicar que o caractere que será desprezado entre os valores*/
 
       system("cls");
-      //mapA;
-      //mapB;
       map;
   
       printf("ptr: \n");
@@ -86,8 +82,6 @@ int main() {
         ptr = &var2;
 
       system("cls");  
-      //mapA;
-      //mapB;  
       map;
 
       printf("*ptr: ");

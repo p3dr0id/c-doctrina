@@ -10,7 +10,7 @@ Data 21/12/2023
 mais o caracter nulo)
 - o caracter nulo é o \0
 - uma string pode ser inicializada como um vetor: char str[10] = {'P','e','d','r','o'};
-- no printf
+- quando inicializada como um vetor, o objeto é chamado de vetor de caracteres e não contém o caracter nulo
 */
 
 /* ============================================================================================ */

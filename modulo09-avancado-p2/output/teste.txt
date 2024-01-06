@@ -1,6 +1,0 @@
-Pedro
-Escrita de uma string no arquivo com separação de linhas
-
-Uma linha
-Segunda linha
-Terceira linha

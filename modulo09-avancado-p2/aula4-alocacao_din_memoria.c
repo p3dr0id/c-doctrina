@@ -60,8 +60,8 @@ int main() {
         exit(1);
     }
 
-    fseek(arq, 0, SEEK_END);
-    long n_bytes = ftell(arq);
+    fseek(arq, 0, SEEK_END); /*varre os bytes do arquivo partindo da posição zero até o final*/
+    long n_bytes = ftell(arq);/*com o ponteiro no final do arquivo, atribui o número de bytes varridos a variável n_bytes*/
     printf("o arquivo tem: %ld bytes\n", n_bytes);
     rewind(arq); /*"rebobina" o ponteiro de memória para posição inicial*/
 
@@ -91,7 +91,7 @@ int main() {
         puts("");
     }
     
-    free(palloc); // Libera a memória alocada dinamicamente
+    free(palloc); /*libera a memória alocada dinamicamente*/
     fclose(arq);
 
     return 0;
